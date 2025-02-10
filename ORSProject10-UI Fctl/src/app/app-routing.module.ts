@@ -38,12 +38,7 @@ import {MyprofileComponent} from './user/myprofile.component';
 import { AssetComponent } from './asset/asset.component';
 import { AssetListComponent } from './asset/assetlist.component';
 
-import { DepartmentComponent } from './department/department.component';
-import { DepartmentlistComponent } from './department/departmentlist.component';
-import { StockanalysisComponent } from './stockanalysis/stockanalysis.component';
-import { StockanalysislistComponent } from './stockanalysis/stockanalysislist.component';
-import { CustomerComponent } from './customer/customer.component';
-import { CustomerlistComponent } from './customer/customerlist.component';
+
 import { AbcComponent } from './abc/abc.component';
 import { AbclistComponent } from './abc/abclist.component';
 
@@ -278,49 +273,6 @@ const routes: Routes = [
         component: AssetComponent
       },
     {
-        path: 'department',
-        component : DepartmentComponent
-      
-    },
-    {
-        path : 'departmentlist',
-        component : DepartmentlistComponent
-      
-    },
-    {
-        path: 'department/:id',
-        component: DepartmentComponent
-      
-    },
-    {
-        path: 'stockanalysis',
-        component : StockanalysisComponent
-      
-    },
-    {
-        path : 'stockanalysislist',
-        component : StockanalysislistComponent
-      
-    },
-    {
-        path: 'stockanalysis/:id',
-        component: StockanalysisComponent
-      
-    }, {
-        path: 'customer',
-        component : CustomerComponent
-      
-    },
-    {
-        path : 'customerlist',
-        component : CustomerlistComponent
-      
-    },
-    {
-        path: 'customer/:id',
-        component: CustomerComponent
-      
-    },{
         path: 'abc',
         component : AbcComponent
       

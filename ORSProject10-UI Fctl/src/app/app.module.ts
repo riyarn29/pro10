@@ -56,14 +56,9 @@ import { AuthService } from './auth-service.service';
 import { AssetComponent } from './asset/asset.component';
 import { AssetListComponent } from './asset/assetlist.component';
 
-import { DepartmentComponent } from './department/department.component';
-import { DepartmentlistComponent } from './department/departmentlist.component';
-import { StockanalysisComponent } from './stockanalysis/stockanalysis.component';
-import { StockanalysislistComponent } from './stockanalysis/stockanalysislist.component';
 import { ComputerlistComponent } from './computer/computerlist.component';
 import { ComputerComponent } from './computer/computer.component';
-import { CustomerComponent } from './customer/customer.component';
-import { CustomerlistComponent } from './customer/customerlist.component';
+
 import { AbcComponent } from './abc/abc.component';
 import { AbclistComponent } from './abc/abclist.component';
 
@@ -132,14 +127,9 @@ export function myHttpLoader(http: HttpClient) {
     
     AssetComponent,
     AssetListComponent,
-    DepartmentComponent,
-    DepartmentlistComponent,
-    StockanalysisComponent,
-    StockanalysislistComponent,
-    ComputerlistComponent,
-    ComputerComponent,
-    CustomerComponent,
-    CustomerlistComponent,
+   
+ 
+    
     AbcComponent,
     AbclistComponent,
  
